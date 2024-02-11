@@ -2,4 +2,4 @@
 FROM openjdk:17
 LABEL maintainer="secdemo.net"
 ADD target/Spring_soap_ws_App-0.0.1-SNAPSHOT.jar.jar app.jar
-ENTRYPOINT ["java","-jar","cureddemo.jar"]
+ENTRYPOINT ["java","-jar","app.jar"]
