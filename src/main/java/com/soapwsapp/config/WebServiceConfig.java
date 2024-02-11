@@ -54,7 +54,7 @@ public class WebServiceConfig extends WsConfigurerAdapter {
 
     @Bean
     public XsdSchema loanEligibilitySchema() {
-        return new SimpleXsdSchema(new ClassPathResource("LoanEligibility.xsd"));
+        return new SimpleXsdSchema(new ClassPathResource("loaneligibility.xsd"));
     }
 
     @Bean
